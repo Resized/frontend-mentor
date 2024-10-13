@@ -168,7 +168,7 @@ h2 {
     color: hsl(234, 85%, 45%);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 740px) {
     .card {
         flex-flow: column;
         overflow: auto;
@@ -176,8 +176,13 @@ h2 {
     }
 
     .result {
-        width: 100%;
         border-radius: 0 0 30px 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .result {
+        width: 100%;
     }
 
     .summary {
